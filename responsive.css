@@ -1,12 +1,59 @@
 @media (width > 768px) {
-    body {
-        
-    }
     header {
         column-gap: 490px;
+        margin-top: 15px;
     }
     .letterbox {
         margin-right:350px;
+        margin-top: 135px;
+    }
+    .key1 {
+        height: 0px;
+        
+    }
+    .lonekey {
+        width: 100%;
+        max-width: 600px;
+        height: 400px;
+        background-image: url(/assets/key1back.svg);
+        background-repeat: no-repeat;
+        background-position: right;
+        margin-left: 168px;
+        margin-top: -350px;
+    }
+    .key2 {
+        width: 100%;
+        max-width: 500px;
+        height: 400px;
+        background-image: url(/assets/key2back.svg);
+        background-repeat: round;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .key3 {
+        width: 100%;
+        max-width: 500px;
+        height: 400px;
+        background-image: url(/assets/key3back.svg);
+    }
+    .letterbox2 {
+        display: flex;
+        column-gap: 46px;
+    }
+    .lb2-2 {
+        width: 398px;
+    }
+    .lb2-1 {
+        margin-left: -60px;
+    }
+    .lastbox { 
+    grid-template-areas:  'first second'
+                          'third fourth';
+    }
+    
+    footer {
+        margin-top: 50px;
+        margin-left: 50px;
     }
     
 }
