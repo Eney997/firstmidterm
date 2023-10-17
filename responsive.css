@@ -1,4 +1,12 @@
 @media (width > 768px) {
-    
+    body {
+        
+    }
+    header {
+        column-gap: 490px;
+    }
+    .letterbox {
+        margin-right:350px;
+    }
     
 }
