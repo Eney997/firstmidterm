@@ -7,9 +7,22 @@
         margin-right:350px;
         margin-top: 135px;
     }
+    .lb1 {
+        width: 339px;
+    }
+    .lb2 {
+        width: 339px;
+    }
+    .button1 {
+        width: 175px;
+        height: 58px;
+    }
+    .button2 {
+        width: 175px;
+        height: 58px;
+    }
     .key1 {
         height: 0px;
-        
     }
     .lonekey {
         width: 100%;
@@ -26,7 +39,9 @@
         max-width: 500px;
         height: 400px;
         background-image: url(/assets/key2back.svg);
-        background-repeat: round;
+        background-repeat: no-repeat;
+        background:border-box;
+        background-color: rgb(255, 0, 0);
         border-bottom-left-radius: 10px;
         border-top-left-radius: 10px;
     }
@@ -47,13 +62,14 @@
         margin-left: -60px;
     }
     .lastbox { 
+    margin-top: 157px;
     grid-template-areas:  'first second'
                           'third fourth';
     }
-    
-    footer {
-        margin-top: 50px;
-        margin-left: 50px;
+    .footertxt {
+        margin-left: 240px;
     }
-    
+    .footertxt2 {
+        position: absolute;
+    }
 }
